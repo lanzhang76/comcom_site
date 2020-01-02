@@ -2,14 +2,26 @@ html {
   font-family: roboto mono;
 }
 .main {
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin-top: 25vh;
   margin-bottom: 15vh;
   margin-left: 10vw;
   margin-right: 10vw;
   line-height: 1.7em;
+  overflow: hidden;
+}
+#journal {
+  font-size: 1.2em;
 }
 
+.content {
+  display: none;
+}
+
+#cap {
+  color: black;
+  background-color: white;
+}
 .main span {
   font-size: 0.5em;
   padding: 0.1em;
@@ -31,6 +43,11 @@ html {
 
 .nav_items:hover {
   color: royalblue;
+}
+
+.big_img {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 .header a {
